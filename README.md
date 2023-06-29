@@ -1,10 +1,10 @@
 # Creating a Token
 
-Token are basically used to facilitate transactions on blockchain. Here in this project I have created my own token
+Tokens are basically used to facilitate transactions on blockchain. Here in this project I have created my own token.
 
 ## Description
 
-In this program I have declared the name of my Token, its abbreviation and total supply of them.
+In this program I have declared the name of my Token, its abbreviation and the total supply of them.
 There also are two functions named mint and burn to mint the tokens and burn them. 
 
 ### Executing program
