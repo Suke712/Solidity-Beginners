@@ -1,30 +1,33 @@
-//SPDX-License-Identifier: MIT
+//SPDX-License-Identifier: MTX
 pragma solidity ^0.8.9;
 
-contract loopchal{
-    function onethousand() public pure returns (uint) {
+contract fun{
 
-        uint s;
-        for (uint _x = 0; _x < 1001; _x++ ){
-            s += _x;
-        
-        }
+    function add(uint _a , uint _b) public pure returns (uint) {
 
-        return s;
+        return _a + _b;
     }
 
-    uint[] public arry;
-    function onehundred() public payable returns (uint) {
+      function sub(int _c , int _d) public pure returns (int) {
 
-        uint p=1;
-         
-        for (uint _y = 0; _y < 101; _y++ ){
-            p += _y * p;
+        return _c - _d;
+    }
 
-            arry.push(p);
+      function mul(uint _e , uint _f) public pure returns (uint) {
 
-        }
+        return _e * _f;
+    }
 
-        return p;
+      function div(uint _g , uint _h) public pure returns (uint) {
+
+          if(_g > _h){
+            
+             return _g / _h;
+          }
+
+          else{
+              return 0;
+          }
+     
     }
 }
